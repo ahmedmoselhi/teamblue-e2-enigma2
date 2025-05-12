@@ -1,12 +1,12 @@
 ## Our buildserver is currently running on: ##
 
-> Ubuntu 22.04 LTS 
+> Ubuntu 24.04 LTS 
 
-## teamBlue 7.3 (based on openPLi) is build using oe-alliance build-environment "7.3" and several git repositories: ##
+## teamBlue 7.6 (based on openPLi) is build using oe-alliance build-environment "7.6" and several git repositories: ##
 
-> [https://github.com/oe-alliance/oe-alliance-core/tree/5.3](https://github.com/oe-alliance/oe-alliance-core/tree/5.3 "OE-Alliance")
+> [https://github.com/oe-alliance/oe-alliance-core/tree/5.3](https://github.com/oe-alliance/oe-alliance-core/tree/5.4 "OE-Alliance")
 >
-> [https://github.com/teamblue-e2/enigma2/tree/7.3](https://github.com/teamblue-e2/enigma2/tree/7.3 "teamBlue E2")
+> [https://github.com/teamblue-e2/enigma2/tree/7.3](https://github.com/teamblue-e2/enigma2/tree/7.6 "teamBlue E2")
 >
 > [https://github.com/teamblue-e2/skin/tree/master](https://github.com/teamblue-e2/skin/tree/master "teamBlue Skin")
 
@@ -61,13 +61,13 @@
     su - teambluebuilder
     ```
 
-1. Create folder teamblue73
+1. Create folder teamblue76
 
     ```sh
-    mkdir -p teamblue73
+    mkdir -p teamblue76
     ```
 
-1. Switch to folder teamblue73
+1. Switch to folder teamblue76
 
     ```sh
     cd teamblue73
@@ -76,7 +76,7 @@
 1. Clone oe-alliance repository
 
     ```sh
-    git clone https://github.com/oe-alliance/build-enviroment.git -b 5.3
+    git clone https://github.com/oe-alliance/build-enviroment.git -b 5.4
     ```
 
 1. Switch to folder build-enviroment
@@ -127,6 +127,6 @@
 
 
 
-Build Status - branch 7.3:    [![Build Status](https://travis-ci.org/teamblue-e2/enigma2.svg?branch=7.3)](https://travis-ci.org/teamblue-e2/enigma2)
+Build Status - branch 7.6:    [![Build Status](https://travis-ci.org/teamblue-e2/enigma2.svg?branch=7.6)](https://travis-ci.org/teamblue-e2/enigma2)
 
-Build Status - branch 7.3:    [![Build Status](https://circleci.com/gh/teamblue-e2/enigma2.svg?style=shield&branch=7.3)]()
+Build Status - branch 7.6:    [![Build Status](https://circleci.com/gh/teamblue-e2/enigma2.svg?style=shield&branch=7.6)]()
